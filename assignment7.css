@@ -1,0 +1,85 @@
+
+        body{
+            background-image:url(./asserts/img1.webp);
+            background-repeat: no-repeat;
+            width: 100%;
+            position: fixed;
+
+            
+            
+        }
+        h2{
+            text-align: center;
+            color: rgb(51, 49, 49);
+        }
+        #radio{
+            text-align: center;
+                
+        }
+        #id1{
+            display: flex;
+            flex-direction: row;
+                  
+         }
+         #cards{
+            display: flex;
+            flex-direction: row;
+            height: 55vh;
+            width: 90vw ;
+            position: relative;
+            left: 15vw;
+            top: 10vh;
+         }
+         #card1,#card3{
+            height: 50vh;
+            width: 20vw;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 3px white;
+            
+         }
+    
+        
+        #card2{
+            height: 55vh;
+            width: 20vw;
+            background-color: rgb(92, 92, 175);
+            position: relative;
+            bottom: 20px;
+            color: white;
+            border-radius: 10px;
+            box-shadow:2px 2px 3px rgb(92, 92, 175);
+
+        }
+        #b1{
+            background-color: rgb(83, 83, 187);
+            border-radius: 10px;
+            color: white;
+            height: 40px;
+            width: 200px;
+            position: relative;
+            left: 4vw;
+        }
+        #b2{
+            background-color: white;
+            border-radius: 10px;
+            color: rgb(83, 83, 187);
+            height: 40px;
+            width: 200px;
+            position: relative;
+            left: 3vw;
+
+        }
+        .prise{
+            font-size: 32px;
+        
+        }
+    #toggle{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        left: 42vw;
+    }
+    p{
+        text-align: center;
+    }
